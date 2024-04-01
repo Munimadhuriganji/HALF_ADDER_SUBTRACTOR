@@ -47,9 +47,9 @@ For different input combinations generate the timing diagram.
 
 Program: Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: SHIVRAJ R
+Developed by: GANJI MUNI MADHURI 
 
-RegisterNumber: 212223110051
+RegisterNumber: 212223230060
 
 RTL Schematic
 
