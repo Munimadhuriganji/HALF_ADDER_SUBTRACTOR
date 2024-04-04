@@ -51,9 +51,28 @@ Developed by: GANJI MUNI MADHURI
 
 RegisterNumber: 212223230060
 
+HALF ADDER
+```
+module half_adder(a,b,sum,carry);
+input a,b;
+output sum,carry; 
+assign sum = a^b;
+assign carry = a & b;
+endmodule
+```
+HALF SUBRACTOR
+```
+module halfsub_top(a,b,D,Bo);
+input a,b;
+output D,Bo; // Outputs sum and carry for half adder:Outputs difference D,Borrow Bo for half subtractor
+assign D = a ^ b;
+  assign Bo = ~a & b;
+endmodule
+```
 RTL Schematic
 
 ![exp_33-1](https://github.com/Munimadhuriganji/HALF_ADDER_SUBTRACTOR/assets/138849444/abfd5a98-52e0-4aae-a445-e142d27cdea0)
+
 ![gvg](https://github.com/Munimadhuriganji/HALF_ADDER_SUBTRACTOR/assets/138849444/70596fc4-084d-4296-8aef-11b0fe55cd92)
 
 Result:
